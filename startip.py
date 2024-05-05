@@ -218,7 +218,7 @@ lin_reg.fit(train_features_prepared, train_labels)
 
 # Predictions
 lin_reg_predictions = lin_reg.predict(train_features_prepared)
-Decision Tree
+# Decision Tree
 
 # Decision Tree Regressor
 from sklearn.tree import DecisionTreeRegressor
@@ -323,7 +323,7 @@ lin_reg_predictions_test = lin_reg.predict(test_features_prepared)
 import joblib
 joblib.dump(full_pipeline, "full_pipeline.pkl")
 
-Web App
+# Web App
 
 %%writefile app.py
 
