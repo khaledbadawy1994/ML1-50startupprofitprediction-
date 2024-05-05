@@ -60,15 +60,9 @@ px.scatter(train_set, x="R&D Spend" , y="Profit"  ,title="Startups Profit" , wid
 
 # Totalspending per profit
 copy["Total_spending_per_profit"] = (copy["R&D Spend"]+train_set["Marketing Spend"])/copy["Profit"]
-[114]
-0s
+
 copy.corr()["Profit"].sort_values(ascending=False)
-Profit                       1.000000
-R&D Spend                    0.972900
-Marketing Spend              0.747766
-Administration               0.200717
-Total_spending_per_profit    0.189661
-Name: Profit, dtype: float64
+
 R&D Spend is more informative than Total_spending_per_profit or Marketing Spend.
 
 Marketing Spend is more informative Total_spending_per_profit
