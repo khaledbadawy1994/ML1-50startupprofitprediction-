@@ -63,13 +63,13 @@ copy["Total_spending_per_profit"] = (copy["R&D Spend"]+train_set["Marketing Spen
 
 copy.corr()["Profit"].sort_values(ascending=False)
 
-R&D Spend is more informative than Total_spending_per_profit or Marketing Spend.
+# R&D Spend is more informative than Total_spending_per_profit or Marketing Spend.
 
-Marketing Spend is more informative Total_spending_per_profit
+# Marketing Spend is more informative Total_spending_per_profit
 
-Total_spending_per_profit is less informative than Administration.
+# Total_spending_per_profit is less informative than Administration.
 
-Prepare the Data for Machine Learning Algorithms
+# Prepare the Data for Machine Learning Algorithms
 
 # Split the data into features and labels
 
@@ -97,7 +97,7 @@ cat_encoder = OneHotEncoder(sparse=False)
 startups_cat_1hot = cat_encoder.fit_transform(startups_cat)
 startups_cat_1hot
 
-cat_encoder.categories_
+# cat_encoder.categories_
 
 #Feature Scaling
 
