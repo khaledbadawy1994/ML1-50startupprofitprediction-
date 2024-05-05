@@ -325,7 +325,7 @@ joblib.dump(full_pipeline, "full_pipeline.pkl")
 
 # Web App
 
-%%writefile app.py
+#%%writefile app.py
 
 import streamlit as st
 import joblib
