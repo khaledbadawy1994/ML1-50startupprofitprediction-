@@ -60,8 +60,7 @@ px.scatter(train_set, x="R&D Spend" , y="Profit"  ,title="Startups Profit" , wid
 
 # Totalspending per profit
 copy["Total_spending_per_profit"] = (copy["R&D Spend"]+train_set["Marketing Spend"])/copy["Profit"]
-[114]
-0s
+
 copy.corr()["Profit"].sort_values(ascending=False)
 Profit                       1.000000
 R&D Spend                    0.972900
